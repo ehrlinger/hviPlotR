@@ -42,7 +42,7 @@ imports this file.
 | `check-manual.yaml` | **push to `main` only — never a PR** | the PDF manual build — catches raw Unicode in `.Rd` that `--no-manual` skips |
 
 ⚠️ **`check-manual.yaml` does not gate pull requests.** Its triggers are `push` to
-`main`/`master`, `release` and `workflow_dispatch`; there is no `pull_request`. So a raw-Unicode
+`main`/`master` and `workflow_dispatch`; there is no `pull_request`. So a raw-Unicode
 `.Rd` passes every check a PR runs and only turns `main` red *after* the merge. If a change
 touches `man/` or any roxygen block, build the manual yourself before handing the PR over:
 
