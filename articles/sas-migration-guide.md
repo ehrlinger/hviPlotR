@@ -1825,7 +1825,7 @@ sessionInfo()
 
     R version 4.6.1 (2026-06-24)
     Platform: x86_64-pc-linux-gnu
-    Running under: Ubuntu 24.04.4 LTS
+    Running under: Ubuntu 24.04.5 LTS
 
     Matrix products: default
     BLAS:   /usr/lib/x86_64-linux-gnu/openblas-pthread/libblas.so.3
@@ -1862,7 +1862,7 @@ sessionInfo()
     [37] ragg_1.5.2              pkgconfig_2.0.3         pillar_1.11.1
     [40] gtable_0.3.6            glue_1.8.1              Rcpp_1.1.2
     [43] systemfonts_1.3.2       xfun_0.60               rvg_0.4.2
-    [46] tibble_3.3.1            tidyselect_1.2.1        knitr_1.51
+    [46] tibble_3.3.1            tidyselect_1.2.1        knitr_1.52
     [49] farver_2.1.2            htmltools_0.5.9         patchwork_1.3.2
     [52] labeling_0.4.3          rmarkdown_2.32          ggalluvial_0.12.6
     [55] compiler_4.6.1          S7_0.2.2                askpass_1.2.1

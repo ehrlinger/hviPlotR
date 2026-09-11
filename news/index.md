@@ -214,10 +214,9 @@ Nothing here changes what any function does; the suite is unchanged at
   [`codetools::checkUsage()`](https://rdrr.io/pkg/codetools/man/checkUsage.html)
   does not walk.
 - The naming lints are cleared and **the lint workflow now gates**:
-  `LINTR_ERROR_ON_LINT` is `true`, so
-  [`lintr::lint_package()`](https://lintr.r-lib.org/reference/lint.html)
-  must return zero before a push. `.lintr` states its three deviations
-  from lintr’s defaults and the reason for each: line length 120,
+  `LINTR_ERROR_ON_LINT` is `true`, so `lintr::lint_package()` must
+  return zero before a push. `.lintr` states its three deviations from
+  lintr’s defaults and the reason for each: line length 120,
   `object_length` 35 because six exported `sample_*` generators are
   longer than 30 and renaming an export is a breaking change, and
   `SNAKE_CASE` accepted alongside `snake_case` for the score-scale
@@ -1488,9 +1487,7 @@ argument on [`plot()`](https://rdrr.io/r/graphics/plot.default.html):
   [`save_ppt()`](https://ehrlinger.github.io/hvtiPlotR/reference/save_ppt.md)
   single- and multi-slide examples.
 - Added `ggplot2::geom_line(..., linewidth = 1.5)` (replacing deprecated
-  `size =`) and updated
-  [`remotes::install_github()`](https://remotes.r-lib.org/reference/install_github.html)
-  (replacing
+  `size =`) and updated `remotes::install_github()` (replacing
   [`devtools::install_github()`](https://devtools.r-lib.org/reference/install-deprecated.html))
   in `vignettes/hvtiPlotR.qmd`.
 
